@@ -13,9 +13,9 @@ Goal is to stream real-time tweets to our computer and store them. We will use t
 #### Tasks:
 
 1. We will be using python package for Twitter API (one of many) python-twitter. We can install it in our environment using `pip install python-twitter`. (15 min)
-2. Before we get our application tokens (API keys) we have to create own Twitter App. Follow [these intructions](https://python-twitter.readthedocs.io/en/latest/getting_started.html). (60 min)
-    - you can name your application `Test Application for Mini-Project I at LighthouseLabs` or something simalar
-    - if you don't know what  website to use, use link to Mini Project I repository: https://github.com/lighthouse-labs/mini-project-I. 
+2. Before we get our application tokens (API keys) we have to create own Twitter App. Follow [these intructions](https://python-twitter.readthedocs.io/en/latest/getting_started.html).
+    - you can name your application `Test Application for API Challenge at LighthouseLabs` or something simalar
+    - if you don't know what  website to use, use link to this repository: https://github.com/lighthouse-labs/API_challenge. 
     - Once you have access to your keys and tokens (should be 4 overall), save them as environmental variables in your computer.
     - Test your personal details using python snippet in the instructions above. We will have to edit the code and use package os to access the values of environmental variables
 3. Proceed to file `stream_tweets.ipynb` and follow the instructions in the notebook. (60 min)
